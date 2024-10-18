@@ -1,0 +1,122 @@
+.mai{
+   flex: 1;
+   min-height: 100vh;
+   padding-bottom: 15vh;
+   position: relative;
+
+}
+.mai .nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 22px;
+   padding: 20px;
+   color: #585858;
+   margin-bottom:20px;
+}
+.mai .nav img{
+   width: 40px;
+   border-radius: 50%;
+   margin-bottom: -20px;
+}
+.mai-container{
+   max-width: 100px;
+   margin: auto;
+   
+}
+.mai .greet{
+margin: 10px 0px;
+font-size: 50px;
+color: #c4c7c5;
+font-weight: 500;
+padding: 20px;
+margin-top: -120px;
+
+}
+.mai .greet span{
+   background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   
+}
+
+.mai .cards{
+   display: grid;
+   grid-template-columns:repeat(auto-fill,minmax(180px,1fr)) ;
+   gap: 15px;
+   padding: 10px;
+   margin-top: -50px;
+}
+.mai .card{
+   height: 220px;
+   padding: 10px;
+   background-color: #f0f4f9;
+   border-radius: 10px;
+   position: relative;
+   cursor: pointer;
+ margin-bottom: 20px;
+
+}
+.mai .card img{
+   width: 40px;
+   padding: 5px;
+   position: absolute;
+   background-color: white;
+   border-radius: 20px;
+   bottom: 10px;
+   right: 10px;
+
+}
+.mai .card p{
+   color: #585858;
+   font-size: 17px;
+}
+.mai .card:hover{
+   background-color: #dfe4ea;
+}
+.mai-bottom{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   max-width: 900px;
+   padding: 0px 20px;
+   margin:auto ;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #c3c3c6;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: fixed;
+  height: 9%;
+  bottom: 0;
+  width: 55%;
+  margin-bottom: 72px; /* Réduisez la marge inférieure pour que la boîte de recherche ne soit pas trop éloignée du contenu */
+  
+}
+
+
+.search-boxs img{
+   width: 24px;
+   cursor: pointer;
+}
+.inputContainer input{
+   flex: 1;
+   background: transparent;
+   border: none;
+   outline: none;
+   padding: 8px;
+   font-size: 18px;
+
+
+}
+
+.search-boxs div {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
